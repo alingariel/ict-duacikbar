@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+
+    .navbar-fixed{
+        @apply fixed w-full z-[9999];
+    }
+
+
+    .hamburger-active{
+        @apply transition-all duration-300 ease-in;
+        /* transform: skew(30deg);
+        transition: .1s all ease; */
+    }
+
+    .navmenu-large{
+        @apply relative -translate-y-20 z-30 w-1/2 flex justify-between ;
+    }
+
+    .navmenu-naik{
+        @apply  -translate-y-[500px] transition-all duration-300 ease-in-out;
+    }
+
+    .navmenu-turun{
+        @apply jjtranslate-y-20 transition-all duration-300 ease-in-out;
+    }
+
+    .welcome-shadow,
+    .visi-shadow{
+        text-shadow: 5px 0px #064e3b;
+    }
+
+    .welcome-shadow-dark,
+    .visi-shadow-dark{
+        text-shadow: 5px 0px #047857;
+    }
+
+    .struktur-organisasi-shadow{
+        text-shadow: 3px 0px #064e3b;
+    }
+
+    .struktur-organisasi-shadow-dark{
+        text-shadow: 3px 0px #047857;
+    }
+
+    .logo-ict-shadow-dark{
+        text-shadow: 3px 0px #047857;
+    }
+
+    .logo-ict-shadow{
+        text-shadow: 3px 0px #064e3b;
+    }
+
+    .number-card-shadow{
+        text-shadow: 3px 0px #064e3b;
+    }
+
+    .name-card-shadow{
+        text-shadow: 3px 0px #064e3b;
+    }
+
+    .name-card-shadow-dark{
+        text-shadow: 3px 0px #047857;
+    }
+
+    .number-card-shadow-dark{
+        text-shadow: 3px 0px #047857;
+    }
+
+    #dark-toggle:checked ~ label .circle-toggle{
+        @apply translate-x-4;
+    }
+
+    #dark-toggle-2:checked ~ label .circle-toggle{
+        @apply translate-x-4;
+    }
+
+    
+}
