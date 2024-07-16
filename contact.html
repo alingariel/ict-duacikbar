@@ -108,7 +108,7 @@
               const nomor = $('input[name="nomor_telephone"]').val();
               const alasan = $('textarea[name="alasan"]').val();
 
-              const message = `*Hallo Kak, Saya mau daftar ekskul ICT, berikut adalah form pendaftaran Saya* \n\n*Nama Lengkap :* ${namaLengkap} \n*Nama Panggilan :* ${namaPanggilan} \n*Kelas dan jurusan :* ${kelas} \n*Divisi :* ${divisi} \n*Nomor Aktif :* ${nomor} \n*Alasan masuk ICT :* ${alasan} \n\n*Tidak akan ada balasan untuk pesan ini, silahkan gabung grup ICT di Link dibawah* \n\n*https://chat.whatsapp.com/FUROzdXr4bZH5xqMMlosQX* \n\n*Ketika sudah bergabung, harap perkenalkan diri cukup nama, kelas, dan divisi yang dipilih.*`
+              const message = `*Hallo Kak, Saya mau daftar ekskul ICT, berikut adalah form pendaftaran Saya* \n\n*Nama Lengkap :* ${namaLengkap} \n*Nama Panggilan :* ${namaPanggilan} \n*Kelas dan jurusan :* ${kelas} \n*Divisi :* ${divisi} \n*Nomor Aktif :* ${nomor} \n*Alasan masuk ICT :* ${alasan} \n\n*Tidak akan ada balasan untuk pesan ini, silahkan gabung grup ICT di Link dibawah.* \n\n*https://chat.whatsapp.com/FUROzdXr4bZH5xqMMlosQX* \n\n*Ketika sudah bergabung, harap perkenalkan diri cukup nama, kelas, dan divisi yang dipilih.*`
 
               const url = "https://wa.me/6281992225225?text=" + encodeURIComponent(message);
               window.open(url, '_blank').focus();
@@ -135,24 +135,12 @@
                   <select class="dark:bg-neutralMuda w-full" name="kelas">
                     <option selected disabled class="dark:text-slateMuda font-montserrat">-- Silahkan Pilih Nama dan kelas --
                     </option>
-                    <option value="X AK 1" class="font-montserrat">X AK 1</option>
-                    <option value="X AK 2" class="font-montserrat">X AK 2</option>
-                    <option value="X AK 3" class="font-montserrat">X AK 3</option>
-                    <option value="X MP 1" class="font-montserrat">X MP 1</option>
-                    <option value="X MP 2" class="font-montserrat">X MP 2</option>
-                    <option value="X MP 3" class="font-montserrat">X MP 3</option>
-                    <option value="X PM 1" class="font-montserrat">X PM 1</option>
-                    <option value="X PM 2" class="font-montserrat">X PM 2</option>
-                    <option value="X M 3" class="font-montserrat">X PM 3</option>
-                    <option value="X TKJ 1" class="font-montserrat">X TKJ 1</option>
-                    <option value="X TKJ 2" class="font-montserrat">X TKJ 2</option>
-                    <option value="X TKJ 3" class="font-montserrat">X TKJ 3</option>
-                    <option value="X DKV 1" class="font-montserrat">X DKV 1</option>
-                    <option value="X DKV 2" class="font-montserrat">X DKV 2</option>
-                    <option value="X DKV 3" class="font-montserrat">X DKV 3</option>
-                    <option value="X AN 1" class="font-montserrat">X AN 1</option>
-                    <option value="X AN 2" class="font-montserrat">X AN 2</option>
-                    <option value="X AN 3" class="font-montserrat">X AN 3</option>
+                    <option value="X AK" class="font-montserrat">X AK</option>
+                    <option value="X MP" class="font-montserrat">X MP</option>
+                    <option value="X PM" class="font-montserrat">X PM</option>
+                    <option value="X TKJ" class="font-montserrat">X TKJ</option>
+                    <option value="X DKV" class="font-montserrat">X DKV</option>
+                    <option value="X AN" class="font-montserrat">X AN</option>
                   </select>
                 </div>
               </div>
